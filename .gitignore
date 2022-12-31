@@ -7,5 +7,6 @@ _site/
 node_modules
 
 # Other miscellaneous items
+Gemfile.lock
 .vscode
 logo_files.zip
