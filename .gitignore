@@ -1,1 +1,11 @@
-# gitignore
+# Jekyll
+_site/
+.sass-cache
+.jekyll-cache
+
+# NPM
+node_modules
+
+# Other miscellaneous items
+.vscode
+logo_files.zip

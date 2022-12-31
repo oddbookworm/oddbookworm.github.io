@@ -1,0 +1,38 @@
+@import "onedark.css"; /* for syntax highlighting color theme */
+
+button {
+    padding: 0.75rem 2rem;
+    border-radius: 0.75rem;
+    border-width: 0.125rem;
+    background-color: hsl(0, 1%, 24%);
+    color: #adacac;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+    transition: 300ms ease-in-out;
+}
+
+button:hover {
+    filter: brightness(125%);
+}
+
+.button-left {
+    float: left;
+}
+
+.button-right {
+    float: right;
+}
+
+code {
+    margin: -5px;
+}
+
+.python-embed {
+    border: 1px solid black;
+}
+
+/* 
+    Javascript handles some formatting with /scripts/format.js 
+    and that will probably override what's in here if there's
+    a conflict
+*/
