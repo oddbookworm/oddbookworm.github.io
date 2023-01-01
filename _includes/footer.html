@@ -29,7 +29,7 @@
                 <h3>Other Useful Links</h3>
                 <footer>
                     {% for link in page.links %}
-                        <a class="new-tab" href="{{ link[0] }}">{{ link[1] }}</a><br>
+                        <a class="new-tab" href="{{ link.url }}">{{ link.name }}</a><br>
                     {% endfor %}
                 </footer>
             {% endif %}
